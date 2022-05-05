@@ -12,7 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "npm run server.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC"
