@@ -16,7 +16,7 @@ const db = mongoose.connection;
 
 db.on("error", (error) => console.error(error));
 db.once("open", () => console.log("Conectando a la base de datos..."));
-
+console.log(process.env.DATABASE_URL)
 //Prueba GET del servidor
 /*app.get("/", (req, res) => {
     res.send("Hola mundo..probando..1..2...3");
